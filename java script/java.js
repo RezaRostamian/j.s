@@ -404,70 +404,70 @@
 
 // =========================================function============================
 // با یک ورودی و بدون خروجی
-function p(message) {
-    console.log("***************")
-    console.log(message)
-    console.log("***************")
-}
-
-// با سه ورودی و خروجی
-function sum(a, b, c) {
-    return a + b + c
-}
-
-let aaaa = sum(10, 20, 30)
-
-p(aaaa)
-
-
-function getTelegramID(id) {
-    return 'https://t.me/' + id
-}
-
-function getInstagramID(id) {
-    return 'https://instagram.com/' + id
-}
-let link = getTelegramID("amirex128")
-p(link)
-// این دوتا یکی هستن بالایی تمیز تره و پاینی تو در توی نوشتیم
-p(getInstagramID("amirex128"))
-
-
-// بدون ورودی و بدون خروجی
-function notifyLogin() {
-    alert("لطفا اول لاگین کنید")
-}
-// notifyLogin()
-
-// بدون ورودی با خروجی
-function sayHi() {
-    let faasf = "hi"
-    return faasf
-}
-
-//بدون ورودی و با خروجی
-function getRezaPay() {
-    //بیسبیسشبیس
-    //بیسبسیشب
-    //بیسشبسیشلس
-    return [1000, 5000, 6000, 4000]
-}
-
-let pay = getRezaPay()
-
-p(pay)
-
-// با یک ورودی و یک خروجی در دو حالت متفاوت
-function isEven(num) {
-    if (num % 2 == 0) {
-        return true
-    } else {
-        return false
-    }
-}
-
-
-p(isEven(5432542365464))
+// function p(message) {
+//     console.log("***************")
+//     console.log(message)
+//     console.log("***************")
+// }
+//
+// // با سه ورودی و خروجی
+// function sum(a, b, c) {
+//     return a + b + c
+// }
+//
+// let aaaa = sum(10, 20, 30)
+//
+// p(aaaa)
+//
+//
+// function getTelegramID(id) {
+//     return 'https://t.me/' + id
+// }
+//
+// function getInstagramID(id) {
+//     return 'https://instagram.com/' + id
+// }
+// let link = getTelegramID("amirex128")
+// p(link)
+// // این دوتا یکی هستن بالایی تمیز تره و پاینی تو در توی نوشتیم
+// p(getInstagramID("amirex128"))
+//
+//
+// // بدون ورودی و بدون خروجی
+// function notifyLogin() {
+//     alert("لطفا اول لاگین کنید")
+// }
+// // notifyLogin()
+//
+// // بدون ورودی با خروجی
+// function sayHi() {
+//     let faasf = "hi"
+//     return faasf
+// }
+//
+// //بدون ورودی و با خروجی
+// function getRezaPay() {
+//     //بیسبیسشبیس
+//     //بیسبسیشب
+//     //بیسشبسیشلس
+//     return [1000, 5000, 6000, 4000]
+// }
+//
+// let pay = getRezaPay()
+//
+// p(pay)
+//
+// // با یک ورودی و یک خروجی در دو حالت متفاوت
+// function isEven(num) {
+//     if (num % 2 == 0) {
+//         return true
+//     } else {
+//         return false
+//     }
+// }
+//
+//
+// p(isEven(5432542365464))
 
 
 
