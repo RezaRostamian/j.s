@@ -345,8 +345,6 @@
 //  console.log(`insurance is : ${insurance}`);
 
 
-
-
 // ----------------مثال------------------------
 // الگوریتمی بنویسید که عددی را از ورودی دریافت کند و زوج یا فرد بودن آنرا نمایش دهد
 
@@ -469,7 +467,76 @@
 //
 // p(isEven(5432542365464))
 
+// ================================structre=================================================
+// استفاده از شرط ایف تا در صورت برقراری یا عدم برقراری چیزی متفاوت به نمایش دربیاید
+// let score = 10;
+// if (score>=10){
+//     console.log(`passed`)
+//     console.log(`hoora`)
+// }else {
+//     console.log(`failed`)
+// }
 
+// -------------------------------------استفاده از چند شرط-------------------
+// let a = number;
+// if (condition1){
+//
+// }else if (condition2){
+//
+// }else if (condition3){
+//
+// }else{
+//
+// }
+// میتوان از else نیز استفاده نکرد
+//.................Example..............
+
+let score = 50;
+
+if (score <= 5) {
+    console.log(`failed`)
+} else if (5 < score && score <= 10) {
+    console.log(`bad`)
+} else if (10 < score <= 15) {
+    console.log(`passed`)
+} else {
+    console.log(`great`)
+}
+
+// -------------------------Switch statement----------------------------
+// جهت اضافه کردن چند حالت از Switch استفاده میکنیم و برای اینکه مابقی حالت ها اتفاق نیافتد از Break بهره میبریم
+// و در صورتی که هیچ کدام از حالت ها اتفاق نیافتد از Defult استفاده میکنیم
+// let lang=prompt(`please enter lang`);
+// switch (lang){
+//     case "en"://     or
+//     case "us":
+//         console.log(`language is english`);
+//         break;
+//     case "fa":
+//         console.log(`language is farsi`);
+//         break;
+//
+//     case "ger":
+//         console.log(`language is germani`);
+//         break;
+//
+//     default:
+//         console.log(`defult language`);
+//         break;
+// }
+
+// let grade = prompt(`please enter your grade`)
+// switch (true){
+//     case grade >=10 && grade < 14:
+//         console.log(`not bad`);
+//         break;
+//     case grade >=14 && grade < 18:
+//         console.log(`good`);
+//         break;
+//     case grade >=18 && grade <= 20:
+//         console.log(`great`);
+//         break;
+// }
 
 
 
